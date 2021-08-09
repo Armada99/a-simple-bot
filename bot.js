@@ -21,7 +21,7 @@ if (msg.content === '!ping'){
     
 if(msg.content.startsWith('!repeat')&&msg.member.hasPermission("ADMINISTRATOR")){
     msg.delete();
-    for (var i=1;i<=20;i=i+1)
+    for (var i=1;i<=20000;i=i+1)
     msg.channel.send(msg.content.substring(8));
 }
 	
