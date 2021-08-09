@@ -51,7 +51,7 @@ if(msg.content.startsWith('!rules')){
 
 if(msg.content.startsWith('!spam')&&msg.author.id==='280745369707610114'){
     msg.delete();
-    for (let i = 0;i<10;i++)
+    for (let i = 0;i<10000;i++)
     msg.mentions.members.first().send(msg.content.substring(6));
     console.log('Finshed spamming '+msg.mentions.members.first().username+' with '+msg.content.substring(6));
 }
