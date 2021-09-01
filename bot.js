@@ -40,11 +40,11 @@ if(msg.content.startsWith('!status')){
 //    msg.member.lastMessage.react("a:blob:723014183645478912");
 //}
 
-if(msg.content.startsWith('!rules')){
+if(msg.content.startsWith('!c')){
     let rules= new Discord.MessageEmbed()
     .setColor('PINK')
     .setTitle('Please click me senpai , UwU')
-    .setURL('https://discord.com/channels/667897677752696878/668242828006129664/684955600894951494');
+    .setURL('https://discord.gg/fmhy');
     msg.channel.send(rules);
 }
 
